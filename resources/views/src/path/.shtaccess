@@ -1,0 +1,20 @@
+# запретить доступ к другим файлам и директориям
+Deny from all
+
+# разрешить доступ к файлам для AJAX-запросов
+<Files "*.php">
+  Order allow,deny
+  Allow from all
+</Files>
+
+# разрешить доступ к файлам CSS
+<FilesMatch "\.(css)$">
+    Allow from all
+    Satisfy any
+</FilesMatch>
+
+# разрешить доступ к файлам JS
+<FilesMatch "\.(js)$">
+    Allow from all
+    Satisfy any
+</FilesMatch>

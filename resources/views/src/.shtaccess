@@ -1,0 +1,8 @@
+# запретить доступ к директории
+Deny from all
+
+# разрешить доступ к файлам изображений
+<FilesMatch "\.(png|jpe?g|gif|svg)$">
+    Allow from all
+    Satisfy any
+</FilesMatch>

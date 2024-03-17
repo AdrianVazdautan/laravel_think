@@ -1,0 +1,433 @@
+*{
+	font-family: 'Open Sans';
+	margin     : 0px;
+	padding    : 0px;
+	box-sizing : border-box;
+}
+
+body{
+	overflow-x: hidden;
+	background: white; 
+}
+
+.wrapp{
+	position: relative;
+	width   : 100vw;
+}
+
+.wrapper{
+	position  : relative;
+	float     : left;
+	width     : 100%;
+	background: #E4E5E7;
+}
+
+main{
+	position       : relative;
+	width          : 100%;
+	display        : grid;
+	justify-content: center;
+}
+
+nav{
+	position     : absolute;
+	width        : 100vw;
+	height       : 57px;
+	left         : 0px;
+	z-index      : 9999;
+	border-bottom: 1px solid #29487D;
+	background   : #5281B9;
+}
+
+.nav-menu{
+	position     : relative;
+	margin       : 0px auto;
+	width        : 1366px;
+	height       : inherit;
+	border-bottom: 1px solid #29487D;
+}
+
+.title-h-menu-1{
+	position         : relative;
+	float            : left;
+	width            : 77px;
+	height           : 57px;
+	left             : 88px;
+	background-repeat: no-repeat;
+}
+
+.title-h-menu-1:hover{cursor: pointer}
+
+#thnk-title{
+	margin-left          : 12px;
+	-webkit-touch-callout: none;
+	-webkit-user-select  : none;   
+	-khtml-user-select   : none;    
+	-moz-user-select     : none;      
+	-ms-user-select      : none;       
+	user-select          : none;
+}
+
+#thnk-title::before{
+	content            : "";
+	display            : block;
+	position           : absolute;
+	width              : 12px;
+	height             : 57px;
+	left               : -.51px;
+	background         : url(icon.png);
+	background-size    : 10.5px;
+	background-repeat  : no-repeat;
+	background-position: 0px 19.1px;
+}
+
+.footer{
+	position: relative;
+	float   : left;
+	width   : 100%;
+	height  : 57px;
+}
+
+.div-hr{
+	position  : relative;
+	width     : 1190px;
+	height    : 1px;
+	margin    : 0px auto;
+	background: #DDDFE2;
+}
+
+.footer-lang{
+	position       : relative;
+	display        : grid;
+	justify-content: center;
+}
+
+.footer-lang div{
+	width: 1192px;
+}
+
+.footer-lang div a{
+	text-decoration: none;
+	color          : #5281B9;
+	font-size      : 12px;
+}
+
+.footer-lang div a:hover{
+	text-decoration: underline;
+}
+
+#m-left-6{
+	margin-left: 6px;
+}
+
+.footer-links{
+	position       : relative;
+	display        : grid;
+	justify-content: center;
+	margin-top     : 18px;
+}
+
+.footer-links div{
+	width: 1192px;
+}
+
+.footer-links div a{
+	text-decoration: none;
+	color          : #5281B9;
+	font-size      : 12px;
+}
+
+.footer-links div a:hover{
+	text-decoration: underline;
+}
+
+.footer-copyright{
+	position       : relative;
+	display        : grid;
+	justify-content: center;
+	margin-top     : 23px;
+}
+
+.footer-copyright div{
+	width          : 1192px;
+	text-decoration: none;
+	color          : #737373;
+	font-size      : 11px;
+}
+
+.form{
+	position          : relative;
+	width             : 740px;
+	height            : 361px;
+	background        : white;
+	border-radius     : 2px;
+	-webkit-box-shadow: 0px 0px 2px -1px rgba(0,0,0,1);
+	-moz-box-shadow   : 0px 0px 2px -1px rgba(0,0,0,1);
+	box-shadow        : 0px 0px 2px -1px rgba(0,0,0,1);
+}
+
+.connect-to{
+	width          : 100%;
+	margin-top     : 38px;
+	display        : grid;
+	justify-content: center;
+}
+
+.connect-to div{
+	width          : 376px;
+	display        : grid;
+	justify-content: center;
+	font-size      : 18px;
+	color          : #1C1E21;
+}
+
+.nickname{
+	width          : 100%;
+	margin-top     : 25px;
+	display        : grid;
+	justify-content: center;
+}
+
+.nickname div{
+	width: 376px;
+}
+
+.nickname div input{
+	border      : 1px solid #D3D9DE;
+	width       : 100%;
+	height      : 34px;
+	padding-left: 8px;
+}
+
+.password{
+	width          : 100%;
+	margin-top     : 15px;
+	display        : grid;
+	justify-content: center;
+}
+
+.password div{
+	width: 376px;
+}
+
+.password div input{
+	border      : 1px solid #D3D9DE;
+	width       : 100%;
+	height      : 34px;
+	padding-left: 8px;
+}
+
+.option{
+	width          : 100%;
+	margin-top     : 15px;
+	display        : grid;
+	justify-content: center;
+}
+
+.option div{
+	width    : 376px;
+	color    : #1C1E21;
+	font-size: 12px;
+}
+
+.option div p{
+	position             : relative;
+	top                  : 1px;
+	left                 : 22px;
+	-webkit-touch-callout: none;
+	-webkit-user-select  : none;   
+	-khtml-user-select   : none;    
+	-moz-user-select     : none;      
+	-ms-user-select      : none;       
+	user-select          : none;
+}
+
+.log-in-registration{
+	width          : 100%;
+	margin-top     : 22px;
+	display        : grid;
+	justify-content: center;
+}
+
+.log-in-registration div{
+	width: 376px;
+}
+
+.log-in-registration div input{
+	border-radius: 3px;
+	border       : none;
+	height       : 44px;
+}
+
+.log-in-registration div input:nth-child(1){
+	width      : 150px;
+	float      : left;
+	background : #5281B9;
+	color      : white;
+	font-weight: bold;
+	cursor     : pointer;
+}
+
+.log-in-registration div input:nth-child(1):hover{
+	background: #5B88BD;
+}
+
+.log-in-registration div input:nth-child(2){
+	width      : 216px;
+	float      : left;
+	margin-left: 10px;
+	background : #5FB053;
+	color      : white;
+	font-weight: bold;
+	cursor     : pointer;
+}
+
+.log-in-registration div input:nth-child(2):hover{
+	background: #68B35D;
+}
+
+.checkmark{
+	position        : absolute;
+	height          : 15px;
+	width           : 15px;
+	top             : 182px;
+	border-radius   : 4px;
+	border          : 1px solid #C1C9D1;
+	background-color: rgb(255,255,255);
+}
+
+.container input:checked ~ .checkmark{
+	background-color: #5281B9;
+	border          : 1px solid #5281B9;
+}
+
+.checkmark:after{
+	content : "";
+	position: absolute;
+	display : none;
+}
+
+.container input:checked ~ .checkmark:after{
+	display: block;
+}
+
+.container .checkmark:after{
+	left             : 5px;
+	top              : 1px;
+	width            : 2px;
+	height           : 7px;
+	border           : solid white;
+	border-width     : 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform    : rotate(45deg);
+	transform        : rotate(45deg);
+}
+
+.container:hover input ~ .checkmark{
+	background-color: #F2F4F8;
+}
+
+.container:hover input:checked ~ .checkmark{
+	background-color: #5B88BD;
+	border          : 1px solid #5B88BD;
+}
+
+.container{
+	cursor: pointer;
+}
+
+#remember{
+	display: none;
+}
+
+.forgot-username-or-password{
+	width          : 100%;
+	margin-top     : 38px;
+	display        : grid;
+	justify-content: center;
+}
+
+.forgot-username-or-password div{
+	width    : 376px;
+	font-size: 12px;
+}
+
+.forgot-username-or-password div a{
+	text-decoration: none;
+	color          : #5281B9;
+}
+
+.forgot-username-or-password div a:hover{
+	text-decoration: underline;
+	color          : #5B88BD;
+}
+
+.ibw_2{
+	position     : relative;
+	float        : left;
+	width        : 325px;
+	border-right : 1px solid #CCD0D5;
+	border-bottom: 1px solid #CCD0D5;
+}
+
+.ibw_3{
+	position: relative;
+	float   : left;
+	width   : 325px;
+}
+
+.ibw_4{
+	position: relative;
+	float   : left;
+	width   : 50px;
+	height  : 56px;
+}
+
+.ibw_5{
+	margin-left  : 12px; 
+	margin-top   : 16px; 
+	position     : relative;
+	float        : left;
+	width        : 28px;
+	height       : 28px;
+	background   : #6CA0B6; 
+	border-radius: 50%;
+	display      : grid;
+	align-items  : center;
+	justify-items: center;
+}
+
+.ibw_8{
+	position   : absolute; 
+	width      : 10px; 
+	height     : 10px;   
+	background : white;
+	transform  : rotate(45deg);
+	margin-left: -4px;
+}
+
+.ibw_9{
+	position   : absolute;
+	width      : 10px;
+	height     : 10px;
+	background : #6CA0B6;
+	transform  : rotate(45deg);
+	margin-left: -10px;
+}
+
+.ibw_6{
+	position     : relative;
+	float        : left;
+	width        : 275px;
+	display      : grid;
+	align-items  : center;
+	justify-items: center;
+}
+
+.ibw_7{
+	position: relative;
+	float   : left;
+	width   : 325px;
+	height  : 0px; 
+	overflow: hidden;
+}

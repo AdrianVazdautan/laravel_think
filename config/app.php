@@ -31,6 +31,12 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    'providers' => [
+        // Другие сервис-провайдеры
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
+    ],
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode

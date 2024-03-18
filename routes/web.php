@@ -77,6 +77,16 @@ Route::get('/signup', function(){
     return view('signup');
 });
 
-Route::get('/terms', function(){
-    return view('terms');
+use App\Models\User;
+
+Route::get('/terms', function () {
+    // Получите пользователя из коллекции MongoDB
+    $user = User::where('nickname', 'example_nickname')->first();
+    
+    // Если пользователь найден, получите значение поля nickname
+    $nickname = $user ? $user->nickname : null;
+    
+    return view('terms', ['nickname' => $nickname]);
 });
+
+
